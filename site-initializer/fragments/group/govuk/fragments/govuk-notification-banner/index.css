@@ -1,0 +1,69 @@
+.govuk-notification-banner {
+	-webkit-font-smoothing: antialiased;
+	border: 5px solid var(--brand-color-1);
+	font-family: var(--font-family-base);
+	margin-bottom: 30px;
+}
+
+.govuk-notification-banner__header {
+	background-color: var(--brand-color-1);
+	border-bottom: 1px solid transparent;
+	padding: 12px 15px 10px;
+}
+
+.govuk-notification-banner__title {
+	color: var(--white);
+	font-size: var(--font-size-base);
+	font-weight: 700;
+	line-height: 1.31579;
+	margin: 0;
+}
+
+.govuk-notification-banner__content {
+	background-color: var(--white);
+	color: var(--black);
+	padding: 20px 15px;
+}
+
+.govuk-notification-banner__heading {
+	font-size: var(--font-size-base);
+	font-weight: 700;
+	line-height: 1.31579;
+	margin: 0 0 10px;
+}
+
+.govuk-notification-banner__content p {
+	font-size: var(--font-size-base);
+	line-height: 1.31579;
+	margin: 0 0 15px;
+}
+
+.govuk-notification-banner__content p:last-child {
+	margin-bottom: 0;
+}
+
+.govuk-notification-banner__link {
+	color: var(--brand-color-1);
+	text-decoration: underline;
+}
+
+.govuk-notification-banner__link:hover {
+	color: var(--brand-color-2);
+	text-decoration-thickness: 3px;
+}
+
+.govuk-notification-banner__link:focus {
+	background-color: var(--brand-color-4);
+	color: var(--black);
+	outline: 3px solid var(--brand-color-4);
+	outline-offset: 0;
+	text-decoration: none;
+}
+
+.govuk-notification-banner--success {
+	border-color: var(--success);
+}
+
+.govuk-notification-banner--success .govuk-notification-banner__header {
+	background-color: var(--success);
+}

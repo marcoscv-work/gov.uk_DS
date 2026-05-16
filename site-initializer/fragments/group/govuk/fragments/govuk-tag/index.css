@@ -1,0 +1,25 @@
+.govuk-tag {
+	-webkit-font-smoothing: antialiased;
+	background-color: var(--brand-color-1) !important;
+	color: var(--white) !important;
+	display: inline-block;
+	font-family: var(--font-family-base);
+	font-size: var(--font-size-base);
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 1.25;
+	padding: 2px 8px 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.govuk-tag--grey { background-color: #505a5f !important; color: #fff !important; }
+.govuk-tag--green { background-color: #00703c !important; color: #fff !important; }
+.govuk-tag--turquoise { background-color: #10827f !important; color: #fff !important; }
+.govuk-tag--blue { background-color: #1d70b8 !important; color: #fff !important; }
+.govuk-tag--light-blue { background-color: #5694ca !important; color: #fff !important; }
+.govuk-tag--purple { background-color: #4c2c92 !important; color: #fff !important; }
+.govuk-tag--pink { background-color: #d53880 !important; color: #fff !important; }
+.govuk-tag--red { background-color: #d4351c !important; color: #fff !important; }
+.govuk-tag--orange { background-color: #f47738 !important; color: #fff !important; }
+.govuk-tag--yellow { background-color: #ffdd00 !important; color: #0b0c0c !important; }
