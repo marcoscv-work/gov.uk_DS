@@ -1,0 +1,9 @@
+govuk-theme:
+    cssURL: index.css
+    frontendTokenDefinitionJSON: frontend-token-definition.json
+    name: GOV.UK Theme
+    type: themeCSS
+
+assemble:
+    - from: src
+      into: static
