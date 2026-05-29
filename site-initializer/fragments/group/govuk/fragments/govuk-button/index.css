@@ -1,0 +1,6 @@
+/* The GOV.UK Button is a global component defined in the govuk-theme
+ * client extension (so .govuk-button works in any fragment — hero CTA,
+ * cookie banner, etc., not only where this fragment is placed).
+ * See client-extensions/govuk-theme/src/index.css → "Button".
+ *
+ * Variants: --secondary, --warning, --inverse, --start. */

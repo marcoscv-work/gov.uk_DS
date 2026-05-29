@@ -1,0 +1,81 @@
+/* =============================================================================
+   GOV.UK Table
+   https://design-system.service.gov.uk/components/table/
+   ============================================================================= */
+
+.govuk-table {
+	-webkit-font-smoothing: antialiased;
+	border-collapse: collapse;
+	border-spacing: 0;
+	color: var(--govuk-text-colour);
+	font-family: var(--govuk-font-family);
+	font-size: var(--govuk-font-size-19);
+	line-height: 1.31579;
+	width: 100%;
+}
+
+/* Caption
+   ============================================================================= */
+
+.govuk-table__caption {
+	display: table-caption;
+	font-weight: 700;
+	text-align: left;
+}
+
+.govuk-table__caption--s {
+	font-size: var(--govuk-font-size-19);
+	line-height: 1.31579;
+}
+
+.govuk-table__caption--m {
+	font-size: var(--govuk-font-size-24);
+	line-height: 1.25;
+}
+
+.govuk-table__caption--l {
+	font-size: var(--govuk-font-size-36);
+	line-height: 1.11111;
+}
+
+.govuk-table__caption--xl {
+	font-size: var(--govuk-font-size-48);
+	line-height: 1.04167;
+}
+
+/* Header and cells
+   ============================================================================= */
+
+.govuk-table__header,
+.govuk-table__cell {
+	border-bottom: 1px solid var(--govuk-border-colour);
+	padding: 10px 20px 10px 0;
+	text-align: left;
+	vertical-align: top;
+}
+
+.govuk-table__header {
+	font-weight: 700;
+}
+
+.govuk-table__header--numeric,
+.govuk-table__cell--numeric {
+	text-align: right;
+}
+
+/* Small text modifier (for tables with a lot of data)
+   ============================================================================= */
+
+.govuk-table--small-text-until-tablet .govuk-table__header,
+.govuk-table--small-text-until-tablet .govuk-table__cell {
+	font-size: var(--govuk-font-size-14);
+	line-height: 1.14286;
+}
+
+@media (min-width: 641px) {
+	.govuk-table--small-text-until-tablet .govuk-table__header,
+	.govuk-table--small-text-until-tablet .govuk-table__cell {
+		font-size: var(--govuk-font-size-19);
+		line-height: 1.31579;
+	}
+}

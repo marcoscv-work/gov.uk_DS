@@ -1,0 +1,366 @@
+/* ============================================================
+ * GOV.UK — GOV.UK Design System for Liferay
+ * Theme client extension
+ *
+ * Token vocabulary and values are the GOV.UK Design System's own,
+ * taken verbatim from govuk-frontend (current/rebrand palette):
+ *
+ *   Layer 1 — Palette:    the official colour groups with their
+ *                         primary / tint-* / shade-* variants
+ *                         (--govuk-blue, --govuk-green-shade-50 …),
+ *                         plus the spacing and type scales.
+ *
+ *   Layer 2 — Functional: the GOV.UK applied colours, mapped to the
+ *                         palette exactly as _colours-functional.scss
+ *                         does (--govuk-text-colour, --govuk-link-colour,
+ *                         --govuk-focus-colour, --govuk-border-colour …).
+ *
+ * No value is invented: every colour is a real GOV.UK token.
+ * ============================================================ */
+
+:root {
+    /* ============================================================
+     * LAYER 1 — Palette  (govuk-frontend _colours-palette--internal)
+     * https://design-system.service.gov.uk/styles/colour/
+     * ============================================================ */
+    --govuk-blue: #1d70b8;
+    --govuk-blue-tint-25: #5694ca;
+    --govuk-blue-tint-50: #8eb8dc;
+    --govuk-blue-tint-80: #d2e2f1;
+    --govuk-blue-tint-95: #f4f8fb;
+    --govuk-blue-shade-10: #1a65a6;
+    --govuk-blue-shade-25: #16548a;
+    --govuk-blue-shade-50: #0f385c;
+    --govuk-green: #0f7a52;
+    --govuk-green-tint-25: #4b9b7d;
+    --govuk-green-tint-50: #87bca8;
+    --govuk-green-tint-80: #cfe4dc;
+    --govuk-green-tint-95: #f3f8f6;
+    --govuk-green-shade-25: #0b5c3e;
+    --govuk-green-shade-50: #083d29;
+    --govuk-teal: #158187;
+    --govuk-teal-tint-25: #50a1a5;
+    --govuk-teal-tint-50: #8ac0c3;
+    --govuk-teal-tint-80: #d0e6e7;
+    --govuk-teal-tint-95: #f3f9f9;
+    --govuk-teal-shade-25: #106165;
+    --govuk-teal-shade-50: #0b4144;
+    --govuk-teal-accent: #00ffe0;
+    --govuk-purple: #54319f;
+    --govuk-purple-tint-25: #7f65b7;
+    --govuk-purple-tint-50: #aa98cf;
+    --govuk-purple-tint-80: #ddd6ec;
+    --govuk-purple-tint-95: #f6f5fa;
+    --govuk-purple-shade-25: #3f2577;
+    --govuk-purple-shade-50: #2a1950;
+    --govuk-magenta: #ca357c;
+    --govuk-magenta-tint-25: #d7689d;
+    --govuk-magenta-tint-50: #e59abe;
+    --govuk-magenta-tint-80: #f4d7e5;
+    --govuk-magenta-tint-95: #fcf5f8;
+    --govuk-magenta-shade-25: #98285d;
+    --govuk-magenta-shade-50: #651b3e;
+    --govuk-red: #ca3535;
+    --govuk-red-tint-25: #d76868;
+    --govuk-red-tint-50: #e59a9a;
+    --govuk-red-tint-80: #f4d7d7;
+    --govuk-red-tint-95: #fcf5f5;
+    --govuk-red-shade-25: #982828;
+    --govuk-red-shade-50: #651b1b;
+    --govuk-orange: #f47738;
+    --govuk-orange-tint-25: #f7996a;
+    --govuk-orange-tint-50: #fabb9c;
+    --govuk-orange-tint-80: #fde4d7;
+    --govuk-orange-tint-95: #fef8f5;
+    --govuk-orange-shade-25: #b7592a;
+    --govuk-orange-shade-50: #7a3c1c;
+    --govuk-yellow: #ffdd00;
+    --govuk-yellow-tint-25: #ffe640;
+    --govuk-yellow-tint-50: #ffee80;
+    --govuk-yellow-tint-80: #fff8cc;
+    --govuk-yellow-tint-95: #fffdf2;
+    --govuk-yellow-shade-25: #bfa600;
+    --govuk-yellow-shade-50: #806f00;
+    --govuk-brown: #99704a;
+    --govuk-brown-tint-25: #b39477;
+    --govuk-brown-tint-50: #ccb8a5;
+    --govuk-brown-tint-95: #faf8f6;
+    --govuk-black: #0b0c0c;
+    --govuk-black-tint-25: #484949;
+    --govuk-black-tint-50: #858686;
+    --govuk-black-tint-80: #cecece;
+    --govuk-black-tint-95: #f3f3f3;
+    --govuk-white: #ffffff;
+
+    /* Spacing scale — GOV.UK spacing points 0..9 */
+    --govuk-spacing-0: 0;
+    --govuk-spacing-1: 0.3125rem;  /*  5px */
+    --govuk-spacing-2: 0.625rem;   /* 10px */
+    --govuk-spacing-3: 0.9375rem;  /* 15px */
+    --govuk-spacing-4: 1.25rem;    /* 20px */
+    --govuk-spacing-5: 1.875rem;   /* 30px */
+    --govuk-spacing-6: 2.5rem;     /* 40px */
+    --govuk-spacing-7: 3.75rem;    /* 60px */
+    --govuk-spacing-8: 5rem;       /* 80px */
+    --govuk-spacing-9: 6.25rem;    /* 100px */
+
+    /* Type scale — GOV.UK font sizes */
+    --govuk-font-size-14: 0.875rem;
+    --govuk-font-size-16: 1rem;
+    --govuk-font-size-19: 1.1875rem;  /* body */
+    --govuk-font-size-24: 1.5rem;
+    --govuk-font-size-27: 1.6875rem;
+    --govuk-font-size-36: 2.25rem;
+    --govuk-font-size-48: 3rem;
+    --govuk-font-size-80: 5rem;
+
+    --govuk-line-height-tight:   1.04;
+    --govuk-line-height-heading: 1.11;
+    --govuk-line-height-body:    1.31;
+
+    --govuk-font-weight-regular: 400;
+    --govuk-font-weight-bold:    700;
+
+    --govuk-font-family: "GDS Transport", arial, sans-serif;
+
+    /* Layout — flat */
+    --govuk-page-width: 60rem;   /* 960px content width */
+    --govuk-radius:     0;
+
+    /* ============================================================
+     * LAYER 2 — Functional / applied  (_colours-functional.scss)
+     * Each maps to a palette entry exactly as GOV.UK defines it.
+     * ============================================================ */
+    --govuk-brand-colour:              var(--govuk-blue);
+    --govuk-text-colour:               var(--govuk-black);
+    --govuk-secondary-text-colour:     var(--govuk-black-tint-25);
+    --govuk-text-colour-inverse:       var(--govuk-white);
+    --govuk-body-background-colour:    var(--govuk-white);
+    --govuk-template-background-colour: var(--govuk-blue-tint-95);
+
+    --govuk-link-colour:               var(--govuk-blue-shade-10);
+    --govuk-link-hover-colour:         var(--govuk-blue-shade-50);
+    --govuk-link-visited-colour:       var(--govuk-purple);
+    --govuk-link-active-colour:        var(--govuk-black);
+
+    --govuk-border-colour:             var(--govuk-black-tint-80);
+    --govuk-input-border-colour:       var(--govuk-black);
+    --govuk-hover-colour:              var(--govuk-black-tint-80);
+
+    --govuk-focus-colour:              var(--govuk-yellow);
+    --govuk-focus-text-colour:         var(--govuk-black);
+
+    --govuk-error-colour:              var(--govuk-red);
+    --govuk-success-colour:            var(--govuk-green);
+
+    --govuk-surface-background-colour: var(--govuk-blue-tint-95);
+    --govuk-surface-text-colour:       var(--govuk-black);
+    --govuk-surface-border-colour:     var(--govuk-blue-tint-50);
+
+    /* Button (GOV.UK green button + variants), all from palette shades */
+    --govuk-button-colour:             var(--govuk-green);
+    --govuk-button-hover-colour:       var(--govuk-green-shade-25);
+    --govuk-button-shadow-colour:      var(--govuk-green-shade-50);
+    --govuk-button-text-colour:        var(--govuk-white);
+
+    /* Focus geometry */
+    --govuk-focus-width:               3px;
+    --govuk-focus-underline-width:     4px;
+}
+
+/* ============================================================
+ * Base elements — scoped to :where(#main-content)
+ * ============================================================ */
+html, body { margin: 0; padding: 0; }
+body {
+    background-color: var(--govuk-body-background-colour);
+    color: var(--govuk-text-colour);
+    font-family: var(--govuk-font-family);
+    font-size: var(--govuk-font-size-19);
+    line-height: var(--govuk-line-height-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+:where(#main-content) h1, :where(#main-content) h2, :where(#main-content) h3,
+:where(#main-content) h4, :where(#main-content) h5, :where(#main-content) h6 {
+    font-family: var(--govuk-font-family);
+    font-weight: var(--govuk-font-weight-bold);
+    color: var(--govuk-text-colour);
+    margin: 0 0 var(--govuk-spacing-5);
+    line-height: var(--govuk-line-height-heading);
+}
+:where(#main-content) h1 { font-size: var(--govuk-font-size-48); line-height: var(--govuk-line-height-tight); }
+:where(#main-content) h2 { font-size: var(--govuk-font-size-36); }
+:where(#main-content) h3 { font-size: var(--govuk-font-size-24); }
+:where(#main-content) h4 { font-size: var(--govuk-font-size-19); }
+:where(#main-content) h5 { font-size: var(--govuk-font-size-19); }
+:where(#main-content) h6 { font-size: var(--govuk-font-size-16); }
+@media (max-width: 40.0625em) {
+    :where(#main-content) h1 { font-size: var(--govuk-font-size-36); }
+    :where(#main-content) h2 { font-size: var(--govuk-font-size-27); }
+    :where(#main-content) h3 { font-size: var(--govuk-font-size-19); }
+}
+:where(#main-content) p { margin: 0 0 var(--govuk-spacing-5); max-width: 38em; }
+.govuk-lead { font-size: var(--govuk-font-size-24); line-height: var(--govuk-line-height-body); }
+
+:where(#main-content) a { color: var(--govuk-link-colour); text-decoration: underline; text-underline-offset: 0.1em; }
+:where(#main-content) a:visited { color: var(--govuk-link-visited-colour); }
+:where(#main-content) a:hover   { color: var(--govuk-link-hover-colour); text-decoration-thickness: 3px; }
+:where(#main-content) a:active  { color: var(--govuk-link-active-colour); }
+
+:where(#main-content) a.govuk-button,
+:where(#main-content) a.govuk-button:link, :where(#main-content) a.govuk-button:visited,
+:where(#main-content) a.govuk-button:hover, :where(#main-content) a.govuk-button:focus,
+:where(#main-content) a.govuk-button:active { text-decoration: none; }
+
+/* ============================================================
+ * Layout helpers + utility classes
+ * ============================================================ */
+.govuk-width-container {
+    box-sizing: border-box;
+    width: 100%;
+    margin-inline: auto;
+    max-width: var(--govuk-page-width);
+    padding-inline: var(--govuk-spacing-3);
+}
+@media (min-width: 40.0625em) {
+    .govuk-width-container { padding-inline: var(--govuk-spacing-5); }
+}
+.govuk-clean-list { list-style: none; margin: 0; padding: 0; }
+.govuk-sr-only {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.govuk-stack > * + * { margin-block-start: var(--govuk-spacing-5); }
+.govuk-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--govuk-spacing-5); }
+.govuk-section { padding-block: var(--govuk-spacing-7); }
+.govuk-section--bg-muted   { background-color: var(--govuk-surface-background-colour); }
+.govuk-section--bg-inverse { background-color: var(--govuk-black); color: var(--govuk-text-colour-inverse); }
+.govuk-section--bg-inverse a { color: var(--govuk-text-colour-inverse); }
+
+:where(#main-content){ overflow-x: hidden; }
+
+/* Page width constraint — page-definition Section renders as
+ * .lfr-layout-structure-item-container in 7.4.13. Horizontal padding
+ * is set per-section via the page layout config, not here. */
+.lfr-layout-structure-item-container,
+.lfr-layout-structure-item-section {
+    width: 100%;
+    max-width: var(--govuk-page-width);
+    margin-inline: auto;
+    box-sizing: border-box;
+}
+
+/* ============================================================
+ * Focus — the GOV.UK signature (yellow bg + 4px black underline)
+ * ============================================================ */
+.govuk-focus,
+.govuk-site-header a:focus-visible,
+.govuk-site-header button:focus-visible,
+.govuk-site-footer a:focus-visible,
+:where(#main-content) a:focus-visible,
+:where(#main-content) button:focus-visible,
+:where(#main-content) [role="button"]:focus-visible,
+:where(#main-content) [role="tab"]:focus-visible,
+:where(#main-content) summary:focus-visible {
+    outline: var(--govuk-focus-width) solid transparent;
+    color: var(--govuk-focus-text-colour);
+    background-color: var(--govuk-focus-colour);
+    box-shadow: 0 -2px var(--govuk-focus-colour), 0 var(--govuk-focus-underline-width) var(--govuk-focus-text-colour);
+    text-decoration: none;
+}
+:where(#main-content) input:focus-visible,
+:where(#main-content) select:focus-visible,
+:where(#main-content) textarea:focus-visible {
+    outline: var(--govuk-focus-width) solid var(--govuk-focus-text-colour);
+    outline-offset: 0;
+    box-shadow: inset 0 0 0 2px var(--govuk-focus-text-colour);
+}
+
+/* ============================================================
+ * Button — global GOV.UK component (used by the button fragment,
+ * hero CTA, cookie banner). Lives in the theme so .govuk-button
+ * works on any page. Every colour is a palette token.
+ * ============================================================ */
+a.govuk-button { text-decoration: none; }
+
+.govuk-button {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--govuk-button-colour);
+    border: 2px solid transparent;
+    border-radius: var(--govuk-radius);
+    box-shadow: 0 2px 0 var(--govuk-button-shadow-colour);
+    color: var(--govuk-button-text-colour);
+    cursor: pointer;
+    display: inline-block;
+    font-family: var(--govuk-font-family);
+    font-size: var(--govuk-font-size-19);
+    font-weight: 700;
+    line-height: 1;
+    padding: 8px 10px 7px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.govuk-button:hover {
+    background-color: var(--govuk-button-hover-colour);
+    color: var(--govuk-button-text-colour);
+    text-decoration: none;
+}
+.govuk-button:focus:not(:active):not(:hover) {
+    background-color: var(--govuk-focus-colour);
+    border-color: var(--govuk-focus-colour);
+    box-shadow: 0 2px 0 var(--govuk-focus-text-colour);
+    color: var(--govuk-focus-text-colour);
+}
+.govuk-button:active,
+.govuk-button:focus:active { box-shadow: none; top: 2px; }
+
+.govuk-button--secondary {
+    background-color: var(--govuk-black-tint-95);
+    box-shadow: 0 2px 0 var(--govuk-black-tint-50);
+    color: var(--govuk-black);
+}
+.govuk-button--secondary:hover { background-color: var(--govuk-black-tint-80); color: var(--govuk-black); }
+.govuk-button--secondary:focus:not(:active):not(:hover) { background-color: var(--govuk-focus-colour); color: var(--govuk-black); }
+
+.govuk-button--warning {
+    background-color: var(--govuk-red);
+    box-shadow: 0 2px 0 var(--govuk-red-shade-50);
+}
+.govuk-button--warning:hover { background-color: var(--govuk-red-shade-25); }
+
+.govuk-button--inverse {
+    background-color: var(--govuk-white);
+    box-shadow: 0 2px 0 var(--govuk-blue-shade-50);
+}
+/* GOV.UK inverse button: brand-blue text in all states, hover → blue tint-95
+ * (govuk-frontend button mixin). The hover is subtle by design. */
+.govuk-button--inverse,
+.govuk-button--inverse:link,
+.govuk-button--inverse:visited,
+.govuk-button--inverse:active,
+.govuk-button--inverse:hover { color: var(--govuk-brand-colour); }
+.govuk-button--inverse:hover { background-color: var(--govuk-blue-tint-95); }
+.govuk-button--inverse:focus:not(:active):not(:hover) { background-color: var(--govuk-focus-colour); color: var(--govuk-black); }
+
+.govuk-button--start {
+    font-size: var(--govuk-font-size-24);
+    font-weight: 700;
+    line-height: 1;
+    min-height: auto;
+    padding: 10px 16px 9px;
+}
+.govuk-button__start-icon {
+    margin-left: 5px;
+    max-width: 45px;
+    min-width: 17px;
+    vertical-align: middle;
+}
+@media (max-width: 40em) {
+    .govuk-button { text-align: center; width: 100%; }
+}

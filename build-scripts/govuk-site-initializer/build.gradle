@@ -1,0 +1,16 @@
+task jar(type: Jar) {
+    archiveFileName = "com.govuk.site.initializer-1.0.0.jar"
+    destinationDirectory = file("build/libs")
+    manifest {
+        attributes(
+            "Bundle-Name": "GOV.UK Site Initializer",
+            "Bundle-SymbolicName": "com.govuk.site.initializer",
+            "Bundle-Version": "1.0.0",
+            "Liferay-Site-Initializer-Name": "GOV.UK",
+            "Provide-Capability": "liferay.site.initializer",
+            "Web-ContextPath": "/site-initializer-govuk"
+        )
+    }
+    from(rootProject.file("site-initializer")) { into "site-initializer" }
+    from(rootProject.file("META-INF"))         { into "META-INF" }
+}

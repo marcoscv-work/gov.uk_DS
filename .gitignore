@@ -1,0 +1,25 @@
+# Gradle / Liferay workspace
+.gradle/
+build/
+bundles/
+**/build/
+**/dist/
+
+# Node
+node_modules/
+yarn.lock
+package-lock.json
+
+# Mac
+.DS_Store
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log
+
+# Reference clones of other design systems (each carries its own .git) — not part of this repo
+references/

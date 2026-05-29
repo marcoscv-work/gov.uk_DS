@@ -1,0 +1,43 @@
+.govuk-panel {
+	-webkit-font-smoothing: antialiased;
+	background-color: var(--govuk-green);
+	box-sizing: border-box;
+	font-family: var(--govuk-font-family);
+	margin-bottom: 30px;
+	padding: 35px;
+	text-align: center;
+}
+
+.govuk-panel--confirmation {
+	background-color: var(--govuk-green);
+}
+
+.govuk-panel__title {
+	color: var(--govuk-white);
+	font-size: var(--govuk-font-size-36);
+	font-weight: 700;
+	line-height: 1.11111;
+	margin: 0 0 15px;
+	word-wrap: break-word;
+}
+
+.govuk-panel__body {
+	color: var(--govuk-white);
+	font-size: var(--govuk-font-size-24);
+	line-height: 1.25;
+	margin: 0;
+}
+
+@media (max-width: 640px) {
+	.govuk-panel {
+		padding: 20px;
+	}
+
+	.govuk-panel__title {
+		font-size: var(--govuk-font-size-24);
+	}
+
+	.govuk-panel__body {
+		font-size: var(--govuk-font-size-19);
+	}
+}

@@ -1,0 +1,25 @@
+.govuk-tag {
+	-webkit-font-smoothing: antialiased;
+	background-color: var(--govuk-blue) !important;
+	color: var(--govuk-white) !important;
+	display: inline-block;
+	font-family: var(--govuk-font-family);
+	font-size: var(--govuk-font-size-19);
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 1.25;
+	padding: 2px 8px 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.govuk-tag--grey { background-color: var(--govuk-secondary-text-colour) !important; color: var(--govuk-white) !important; }
+.govuk-tag--green { background-color: var(--govuk-green) !important; color: var(--govuk-white) !important; }
+.govuk-tag--turquoise { background-color: var(--govuk-teal) !important; color: var(--govuk-white) !important; }
+.govuk-tag--blue { background-color: var(--govuk-blue) !important; color: var(--govuk-white) !important; }
+.govuk-tag--light-blue { background-color: var(--govuk-blue-tint-25) !important; color: var(--govuk-white) !important; }
+.govuk-tag--purple { background-color: var(--govuk-purple) !important; color: var(--govuk-white) !important; }
+.govuk-tag--pink { background-color: var(--govuk-magenta) !important; color: var(--govuk-white) !important; }
+.govuk-tag--red { background-color: var(--govuk-red) !important; color: var(--govuk-white) !important; }
+.govuk-tag--orange { background-color: var(--govuk-orange) !important; color: var(--govuk-white) !important; }
+.govuk-tag--yellow { background-color: var(--govuk-yellow) !important; color: var(--govuk-black) !important; }

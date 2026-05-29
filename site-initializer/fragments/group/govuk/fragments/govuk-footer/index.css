@@ -1,0 +1,112 @@
+.govuk-footer {
+	-webkit-font-smoothing: antialiased;
+	background-color: var(--govuk-black-tint-95);
+	border-top: 10px solid var(--govuk-blue);
+	color: var(--govuk-black);
+	font-family: var(--govuk-font-family);
+	font-size: 1rem;
+	line-height: 1.25;
+}
+
+.govuk-footer .govuk-width-container {
+	margin: 0 auto;
+	max-width: var(--govuk-page-width);
+	padding: 30px 15px 0;
+}
+
+.govuk-footer__crown {
+	color: var(--govuk-black);
+	display: block;
+	margin-bottom: 10px;
+}
+
+.govuk-footer__meta {
+	align-items: flex-end;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 15px;
+}
+
+.govuk-footer__meta-item {
+	margin-bottom: 25px;
+}
+
+.govuk-footer__meta-item--grow {
+	flex: 1;
+}
+
+.govuk-footer__inline-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0 20px;
+	list-style: none;
+	margin: 0 0 20px;
+	padding: 0;
+}
+
+.govuk-footer__link {
+	color: var(--govuk-blue);
+	font-size: var(--govuk-font-size-14);
+	line-height: 1.14286;
+	text-decoration: underline;
+}
+
+.govuk-footer__link:hover {
+	color: var(--govuk-black);
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+}
+
+.govuk-footer__link:focus {
+	background-color: var(--govuk-yellow);
+	color: var(--govuk-black);
+	outline: 3px solid var(--govuk-yellow);
+	outline-offset: 0;
+	text-decoration: none;
+}
+
+.govuk-footer__licence-logo {
+	color: var(--govuk-black);
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+.govuk-footer__licence-description {
+	color: var(--govuk-black);
+	display: inline-block;
+	font-size: var(--govuk-font-size-14);
+	line-height: 1.5;
+	vertical-align: top;
+}
+
+.govuk-footer__copyright-logo {
+	align-items: center;
+	color: var(--govuk-black);
+	display: inline-flex;
+	flex-direction: column;
+	font-size: var(--govuk-font-size-14);
+	gap: 10px;
+	min-width: 125px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.govuk-footer__copyright-logo:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+}
+
+.govuk-footer__crest-image {
+	display: block;
+	height: 102px;
+	margin: 0 auto 5px;
+	width: 125px;
+}
+
+@media (max-width: 640px) {
+	.govuk-footer__meta {
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,1242 @@
+{
+    "frontendTokenCategories": [
+        {
+            "label": "Colour palette",
+            "name": "palette",
+            "frontendTokenSets": [
+                {
+                    "label": "Blue",
+                    "name": "blue",
+                    "frontendTokens": [
+                        {
+                            "defaultValue": "#1d70b8",
+                            "editorType": "ColorPicker",
+                            "label": "Blue",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-blue"
+                                }
+                            ],
+                            "name": "govukBlue",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#5694ca",
+                            "editorType": "ColorPicker",
+                            "label": "Blue tint 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-blue-tint-25"
+                                }
+                            ],
+                            "name": "govukBlueTint25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#8eb8dc",
+                            "editorType": "ColorPicker",
+                            "label": "Blue tint 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-blue-tint-50"
+                                }
+                            ],
+                            "name": "govukBlueTint50",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#d2e2f1",
+                            "editorType": "ColorPicker",
+                            "label": "Blue tint 80",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-blue-tint-80"
+                                }
+                            ],
+                            "name": "govukBlueTint80",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#f4f8fb",
+                            "editorType": "ColorPicker",
+                            "label": "Blue tint 95",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-blue-tint-95"
+                                }
+                            ],
+                            "name": "govukBlueTint95",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#16548a",
+                            "editorType": "ColorPicker",
+                            "label": "Blue shade 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-blue-shade-25"
+                                }
+                            ],
+                            "name": "govukBlueShade25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#0f385c",
+                            "editorType": "ColorPicker",
+                            "label": "Blue shade 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-blue-shade-50"
+                                }
+                            ],
+                            "name": "govukBlueShade50",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#1a65a6",
+                            "editorType": "ColorPicker",
+                            "label": "Blue shade 10",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-blue-shade-10"
+                                }
+                            ],
+                            "name": "govukBlueShade10",
+                            "type": "String"
+                        }
+                    ]
+                },
+                {
+                    "label": "Green",
+                    "name": "green",
+                    "frontendTokens": [
+                        {
+                            "defaultValue": "#0f7a52",
+                            "editorType": "ColorPicker",
+                            "label": "Green",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-green"
+                                }
+                            ],
+                            "name": "govukGreen",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#4b9b7d",
+                            "editorType": "ColorPicker",
+                            "label": "Green tint 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-green-tint-25"
+                                }
+                            ],
+                            "name": "govukGreenTint25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#87bca8",
+                            "editorType": "ColorPicker",
+                            "label": "Green tint 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-green-tint-50"
+                                }
+                            ],
+                            "name": "govukGreenTint50",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#cfe4dc",
+                            "editorType": "ColorPicker",
+                            "label": "Green tint 80",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-green-tint-80"
+                                }
+                            ],
+                            "name": "govukGreenTint80",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#f3f8f6",
+                            "editorType": "ColorPicker",
+                            "label": "Green tint 95",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-green-tint-95"
+                                }
+                            ],
+                            "name": "govukGreenTint95",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#0b5c3e",
+                            "editorType": "ColorPicker",
+                            "label": "Green shade 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-green-shade-25"
+                                }
+                            ],
+                            "name": "govukGreenShade25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#083d29",
+                            "editorType": "ColorPicker",
+                            "label": "Green shade 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-green-shade-50"
+                                }
+                            ],
+                            "name": "govukGreenShade50",
+                            "type": "String"
+                        }
+                    ]
+                },
+                {
+                    "label": "Teal",
+                    "name": "teal",
+                    "frontendTokens": [
+                        {
+                            "defaultValue": "#158187",
+                            "editorType": "ColorPicker",
+                            "label": "Teal",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-teal"
+                                }
+                            ],
+                            "name": "govukTeal",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#50a1a5",
+                            "editorType": "ColorPicker",
+                            "label": "Teal tint 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-teal-tint-25"
+                                }
+                            ],
+                            "name": "govukTealTint25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#8ac0c3",
+                            "editorType": "ColorPicker",
+                            "label": "Teal tint 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-teal-tint-50"
+                                }
+                            ],
+                            "name": "govukTealTint50",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#d0e6e7",
+                            "editorType": "ColorPicker",
+                            "label": "Teal tint 80",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-teal-tint-80"
+                                }
+                            ],
+                            "name": "govukTealTint80",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#f3f9f9",
+                            "editorType": "ColorPicker",
+                            "label": "Teal tint 95",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-teal-tint-95"
+                                }
+                            ],
+                            "name": "govukTealTint95",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#106165",
+                            "editorType": "ColorPicker",
+                            "label": "Teal shade 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-teal-shade-25"
+                                }
+                            ],
+                            "name": "govukTealShade25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#0b4144",
+                            "editorType": "ColorPicker",
+                            "label": "Teal shade 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-teal-shade-50"
+                                }
+                            ],
+                            "name": "govukTealShade50",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#00ffe0",
+                            "editorType": "ColorPicker",
+                            "label": "Teal accent",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-teal-accent"
+                                }
+                            ],
+                            "name": "govukTealAccent",
+                            "type": "String"
+                        }
+                    ]
+                },
+                {
+                    "label": "Purple",
+                    "name": "purple",
+                    "frontendTokens": [
+                        {
+                            "defaultValue": "#54319f",
+                            "editorType": "ColorPicker",
+                            "label": "Purple",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-purple"
+                                }
+                            ],
+                            "name": "govukPurple",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#7f65b7",
+                            "editorType": "ColorPicker",
+                            "label": "Purple tint 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-purple-tint-25"
+                                }
+                            ],
+                            "name": "govukPurpleTint25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#aa98cf",
+                            "editorType": "ColorPicker",
+                            "label": "Purple tint 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-purple-tint-50"
+                                }
+                            ],
+                            "name": "govukPurpleTint50",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#ddd6ec",
+                            "editorType": "ColorPicker",
+                            "label": "Purple tint 80",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-purple-tint-80"
+                                }
+                            ],
+                            "name": "govukPurpleTint80",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#f6f5fa",
+                            "editorType": "ColorPicker",
+                            "label": "Purple tint 95",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-purple-tint-95"
+                                }
+                            ],
+                            "name": "govukPurpleTint95",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#3f2577",
+                            "editorType": "ColorPicker",
+                            "label": "Purple shade 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-purple-shade-25"
+                                }
+                            ],
+                            "name": "govukPurpleShade25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#2a1950",
+                            "editorType": "ColorPicker",
+                            "label": "Purple shade 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-purple-shade-50"
+                                }
+                            ],
+                            "name": "govukPurpleShade50",
+                            "type": "String"
+                        }
+                    ]
+                },
+                {
+                    "label": "Magenta",
+                    "name": "magenta",
+                    "frontendTokens": [
+                        {
+                            "defaultValue": "#ca357c",
+                            "editorType": "ColorPicker",
+                            "label": "Magenta",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-magenta"
+                                }
+                            ],
+                            "name": "govukMagenta",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#d7689d",
+                            "editorType": "ColorPicker",
+                            "label": "Magenta tint 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-magenta-tint-25"
+                                }
+                            ],
+                            "name": "govukMagentaTint25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#e59abe",
+                            "editorType": "ColorPicker",
+                            "label": "Magenta tint 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-magenta-tint-50"
+                                }
+                            ],
+                            "name": "govukMagentaTint50",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#f4d7e5",
+                            "editorType": "ColorPicker",
+                            "label": "Magenta tint 80",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-magenta-tint-80"
+                                }
+                            ],
+                            "name": "govukMagentaTint80",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#fcf5f8",
+                            "editorType": "ColorPicker",
+                            "label": "Magenta tint 95",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-magenta-tint-95"
+                                }
+                            ],
+                            "name": "govukMagentaTint95",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#98285d",
+                            "editorType": "ColorPicker",
+                            "label": "Magenta shade 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-magenta-shade-25"
+                                }
+                            ],
+                            "name": "govukMagentaShade25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#651b3e",
+                            "editorType": "ColorPicker",
+                            "label": "Magenta shade 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-magenta-shade-50"
+                                }
+                            ],
+                            "name": "govukMagentaShade50",
+                            "type": "String"
+                        }
+                    ]
+                },
+                {
+                    "label": "Red",
+                    "name": "red",
+                    "frontendTokens": [
+                        {
+                            "defaultValue": "#ca3535",
+                            "editorType": "ColorPicker",
+                            "label": "Red",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-red"
+                                }
+                            ],
+                            "name": "govukRed",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#d76868",
+                            "editorType": "ColorPicker",
+                            "label": "Red tint 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-red-tint-25"
+                                }
+                            ],
+                            "name": "govukRedTint25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#e59a9a",
+                            "editorType": "ColorPicker",
+                            "label": "Red tint 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-red-tint-50"
+                                }
+                            ],
+                            "name": "govukRedTint50",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#f4d7d7",
+                            "editorType": "ColorPicker",
+                            "label": "Red tint 80",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-red-tint-80"
+                                }
+                            ],
+                            "name": "govukRedTint80",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#fcf5f5",
+                            "editorType": "ColorPicker",
+                            "label": "Red tint 95",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-red-tint-95"
+                                }
+                            ],
+                            "name": "govukRedTint95",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#982828",
+                            "editorType": "ColorPicker",
+                            "label": "Red shade 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-red-shade-25"
+                                }
+                            ],
+                            "name": "govukRedShade25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#651b1b",
+                            "editorType": "ColorPicker",
+                            "label": "Red shade 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-red-shade-50"
+                                }
+                            ],
+                            "name": "govukRedShade50",
+                            "type": "String"
+                        }
+                    ]
+                },
+                {
+                    "label": "Orange",
+                    "name": "orange",
+                    "frontendTokens": [
+                        {
+                            "defaultValue": "#f47738",
+                            "editorType": "ColorPicker",
+                            "label": "Orange",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-orange"
+                                }
+                            ],
+                            "name": "govukOrange",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#f7996a",
+                            "editorType": "ColorPicker",
+                            "label": "Orange tint 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-orange-tint-25"
+                                }
+                            ],
+                            "name": "govukOrangeTint25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#fabb9c",
+                            "editorType": "ColorPicker",
+                            "label": "Orange tint 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-orange-tint-50"
+                                }
+                            ],
+                            "name": "govukOrangeTint50",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#fde4d7",
+                            "editorType": "ColorPicker",
+                            "label": "Orange tint 80",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-orange-tint-80"
+                                }
+                            ],
+                            "name": "govukOrangeTint80",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#fef8f5",
+                            "editorType": "ColorPicker",
+                            "label": "Orange tint 95",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-orange-tint-95"
+                                }
+                            ],
+                            "name": "govukOrangeTint95",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#b7592a",
+                            "editorType": "ColorPicker",
+                            "label": "Orange shade 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-orange-shade-25"
+                                }
+                            ],
+                            "name": "govukOrangeShade25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#7a3c1c",
+                            "editorType": "ColorPicker",
+                            "label": "Orange shade 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-orange-shade-50"
+                                }
+                            ],
+                            "name": "govukOrangeShade50",
+                            "type": "String"
+                        }
+                    ]
+                },
+                {
+                    "label": "Yellow",
+                    "name": "yellow",
+                    "frontendTokens": [
+                        {
+                            "defaultValue": "#ffdd00",
+                            "editorType": "ColorPicker",
+                            "label": "Yellow",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-yellow"
+                                }
+                            ],
+                            "name": "govukYellow",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#ffe640",
+                            "editorType": "ColorPicker",
+                            "label": "Yellow tint 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-yellow-tint-25"
+                                }
+                            ],
+                            "name": "govukYellowTint25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#ffee80",
+                            "editorType": "ColorPicker",
+                            "label": "Yellow tint 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-yellow-tint-50"
+                                }
+                            ],
+                            "name": "govukYellowTint50",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#fff8cc",
+                            "editorType": "ColorPicker",
+                            "label": "Yellow tint 80",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-yellow-tint-80"
+                                }
+                            ],
+                            "name": "govukYellowTint80",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#fffdf2",
+                            "editorType": "ColorPicker",
+                            "label": "Yellow tint 95",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-yellow-tint-95"
+                                }
+                            ],
+                            "name": "govukYellowTint95",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#bfa600",
+                            "editorType": "ColorPicker",
+                            "label": "Yellow shade 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-yellow-shade-25"
+                                }
+                            ],
+                            "name": "govukYellowShade25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#806f00",
+                            "editorType": "ColorPicker",
+                            "label": "Yellow shade 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-yellow-shade-50"
+                                }
+                            ],
+                            "name": "govukYellowShade50",
+                            "type": "String"
+                        }
+                    ]
+                },
+                {
+                    "label": "Brown",
+                    "name": "brown",
+                    "frontendTokens": [
+                        {
+                            "defaultValue": "#99704a",
+                            "editorType": "ColorPicker",
+                            "label": "Brown",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-brown"
+                                }
+                            ],
+                            "name": "govukBrown",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#b39477",
+                            "editorType": "ColorPicker",
+                            "label": "Brown tint 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-brown-tint-25"
+                                }
+                            ],
+                            "name": "govukBrownTint25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#ccb8a5",
+                            "editorType": "ColorPicker",
+                            "label": "Brown tint 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-brown-tint-50"
+                                }
+                            ],
+                            "name": "govukBrownTint50",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#faf8f6",
+                            "editorType": "ColorPicker",
+                            "label": "Brown tint 95",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-brown-tint-95"
+                                }
+                            ],
+                            "name": "govukBrownTint95",
+                            "type": "String"
+                        }
+                    ]
+                },
+                {
+                    "label": "Greyscale",
+                    "name": "black",
+                    "frontendTokens": [
+                        {
+                            "defaultValue": "#0b0c0c",
+                            "editorType": "ColorPicker",
+                            "label": "Greyscale",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-black"
+                                }
+                            ],
+                            "name": "govukBlack",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#484949",
+                            "editorType": "ColorPicker",
+                            "label": "Greyscale tint 25",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-black-tint-25"
+                                }
+                            ],
+                            "name": "govukBlackTint25",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#858686",
+                            "editorType": "ColorPicker",
+                            "label": "Greyscale tint 50",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-black-tint-50"
+                                }
+                            ],
+                            "name": "govukBlackTint50",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#cecece",
+                            "editorType": "ColorPicker",
+                            "label": "Greyscale tint 80",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-black-tint-80"
+                                }
+                            ],
+                            "name": "govukBlackTint80",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#f3f3f3",
+                            "editorType": "ColorPicker",
+                            "label": "Greyscale tint 95",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-black-tint-95"
+                                }
+                            ],
+                            "name": "govukBlackTint95",
+                            "type": "String"
+                        }
+                    ]
+                },
+                {
+                    "label": "White",
+                    "name": "white",
+                    "frontendTokens": [
+                        {
+                            "defaultValue": "#ffffff",
+                            "editorType": "ColorPicker",
+                            "label": "White",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-white"
+                                }
+                            ],
+                            "name": "govukWhite",
+                            "type": "String"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Functional colours",
+            "name": "functional",
+            "frontendTokenSets": [
+                {
+                    "label": "Applied",
+                    "name": "applied",
+                    "frontendTokens": [
+                        {
+                            "defaultValue": "#1d70b8",
+                            "editorType": "ColorPicker",
+                            "label": "Brand",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-brand-colour"
+                                }
+                            ],
+                            "name": "govukBrandColour",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#0b0c0c",
+                            "editorType": "ColorPicker",
+                            "label": "Text",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-text-colour"
+                                }
+                            ],
+                            "name": "govukTextColour",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#484949",
+                            "editorType": "ColorPicker",
+                            "label": "Secondary text",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-secondary-text-colour"
+                                }
+                            ],
+                            "name": "govukSecondaryTextColour",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#1a65a6",
+                            "editorType": "ColorPicker",
+                            "label": "Link",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-link-colour"
+                                }
+                            ],
+                            "name": "govukLinkColour",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#0f385c",
+                            "editorType": "ColorPicker",
+                            "label": "Link hover",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-link-hover-colour"
+                                }
+                            ],
+                            "name": "govukLinkHoverColour",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#54319f",
+                            "editorType": "ColorPicker",
+                            "label": "Link visited",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-link-visited-colour"
+                                }
+                            ],
+                            "name": "govukLinkVisitedColour",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#0b0c0c",
+                            "editorType": "ColorPicker",
+                            "label": "Link active",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-link-active-colour"
+                                }
+                            ],
+                            "name": "govukLinkActiveColour",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#cecece",
+                            "editorType": "ColorPicker",
+                            "label": "Border",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-border-colour"
+                                }
+                            ],
+                            "name": "govukBorderColour",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#0b0c0c",
+                            "editorType": "ColorPicker",
+                            "label": "Input border",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-input-border-colour"
+                                }
+                            ],
+                            "name": "govukInputBorderColour",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#ffdd00",
+                            "editorType": "ColorPicker",
+                            "label": "Focus",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-focus-colour"
+                                }
+                            ],
+                            "name": "govukFocusColour",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#0b0c0c",
+                            "editorType": "ColorPicker",
+                            "label": "Focus text",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-focus-text-colour"
+                                }
+                            ],
+                            "name": "govukFocusTextColour",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#ca3535",
+                            "editorType": "ColorPicker",
+                            "label": "Error",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-error-colour"
+                                }
+                            ],
+                            "name": "govukErrorColour",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#0f7a52",
+                            "editorType": "ColorPicker",
+                            "label": "Success",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-success-colour"
+                                }
+                            ],
+                            "name": "govukSuccessColour",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#ffffff",
+                            "editorType": "ColorPicker",
+                            "label": "Body background",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-body-background-colour"
+                                }
+                            ],
+                            "name": "govukBodyBackgroundColour",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#f4f8fb",
+                            "editorType": "ColorPicker",
+                            "label": "Surface background",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-surface-background-colour"
+                                }
+                            ],
+                            "name": "govukSurfaceBackgroundColour",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "#8eb8dc",
+                            "editorType": "ColorPicker",
+                            "label": "Surface border",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-surface-border-colour"
+                                }
+                            ],
+                            "name": "govukSurfaceBorderColour",
+                            "type": "String"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Typography",
+            "name": "typography",
+            "frontendTokenSets": [
+                {
+                    "label": "Family",
+                    "name": "fontFamily",
+                    "frontendTokens": [
+                        {
+                            "defaultValue": "\"GDS Transport\", arial, sans-serif",
+                            "label": "Font family",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-font-family"
+                                }
+                            ],
+                            "name": "govukFontFamily",
+                            "type": "String"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Layout",
+            "name": "layout",
+            "frontendTokenSets": [
+                {
+                    "label": "Container",
+                    "name": "container",
+                    "frontendTokens": [
+                        {
+                            "defaultValue": "60rem",
+                            "editorType": "Length",
+                            "label": "Page width (960px)",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-page-width"
+                                }
+                            ],
+                            "name": "govukPageWidth",
+                            "type": "String"
+                        },
+                        {
+                            "defaultValue": "0",
+                            "editorType": "Length",
+                            "label": "Radius (flat)",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "govuk-radius"
+                                }
+                            ],
+                            "name": "govukRadius",
+                            "type": "String"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
