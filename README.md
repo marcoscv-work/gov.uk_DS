@@ -48,6 +48,22 @@ Fragments are themed by the **style book** via Classic theme CSS variables
 `govuk-theme` CX supplies base typography, the GOV.UK focus state, layout
 helpers and the token definition exposed to Style Books.
 
+## Screenshots
+
+Full-page captures of the site as created by this site initializer on a Liferay DXP master bundle (October 2026), with the CSS theme client extension applied.
+
+### Home
+
+![home page](docs/screenshots/home.png)
+
+### Styles
+
+![styles page](docs/screenshots/styles.png)
+
+### Components
+
+![components page](docs/screenshots/components.png)
+
 ## Build
 
 ```bash
